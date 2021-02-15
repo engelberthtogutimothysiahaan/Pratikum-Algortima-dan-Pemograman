@@ -1,0 +1,33 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA
+
+'''''
+Soal :
+Bimo pergi ke pasar untuk membeli perlengkapan dapur. Uang yang dia punya adalah 1.000.000. 
+Bimo ingin membeli ikan seharga 150.000, lalu membeli buah – buahan seharga 200.000, 
+lalu membeli sayuran seharga 100.000, lalu membeli daging ayam seharga 150.000, 
+lalu sisa 20% di sumbangkan ke panti asuhan. 
+Jadi, berapa sisa uang BIMO?                                                                    
+'''''
+
+"SISA UANG BIMO"
+
+#INPUT USER             
+Total_Uang_Bimo = int(input("Total Uang Bimo :"))
+Harga_Ikan = int(input("Harga Ikan :"))
+Harga_Buah = int(input("Harga Buah :"))
+Harga_Sayur = int(input("Harga Sayur :"))
+Harga_Ayam = int(input("Harga Ayam :"))
+
+#PROSES UNTUK MENDAPATKAN HASIL OUTPUT
+Uang_yang_terpakai_belanja = Harga_Ikan + Harga_Buah + Harga_Sayur + Harga_Ayam  
+Sisa_Uang_Bimo_Habis_Belanja = Total_Uang_Bimo - Harga_Ikan - Harga_Buah - Harga_Sayur - Harga_Ayam 
+Total_Sumbangan = Sisa_Uang_Bimo_Habis_Belanja * 20/100
+Sisa_uang_bimo = Sisa_Uang_Bimo_Habis_Belanja - Total_Sumbangan
+
+#MENAMPILKAN HASIL OUTPUT
+print("Uang Bimo yang terpakai untuk belanja di pasar Rp. ", Uang_yang_terpakai_belanja)
+print("Uang Bimo yang tersisa setelah belanja di pasar Rp. ", Sisa_Uang_Bimo_Habis_Belanja)
+print("Total uang yang di sumbangkan Rp. ", Total_Sumbangan)
+print("Sisa uang BIMO adalah Rp. ", Sisa_uang_bimo)   
