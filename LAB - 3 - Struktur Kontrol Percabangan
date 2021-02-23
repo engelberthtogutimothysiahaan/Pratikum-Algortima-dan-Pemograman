@@ -1,0 +1,38 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA 
+
+"""
+SOAL:
+
+Buatlah program persyaratan kerja untuk mengumpulkan data nama, umur, dan pekerjaan yang akan di daftar dengan ketentuan
+Jika user telah menginput nama maka program akan menampilkan 'Nama anda (nama user yg di input) telah berhasil dimasukan'
+Jika umur kurang dari 18 tahun maka program akan menampilkan 'anda masih belum cukup umur, silahkan tunggu umur anda cukup'
+lalu program akan berhenti.
+Jika umur diantara 18 sampai 30 maka program akan menampilkan 'Anda sudah cukup umur'
+lalu program akan memerintahkan user untuk menginput pekerjaan yang ingin di daftar dan akan menampilkan -
+'anda telah terdaftar menjadi (pekerjaan yg di input) silahkan tunggu pengumuman selanjutnya'
+Jika umur lebih dari 30 maka program akan menampilkan 'umur anda sudah tua,mohon maaf anda tidak bisa daftar
+lalu program akan berhenti.
+
+"""
+nama = str(input("Masukan Nama Anda :")) #INPUT
+print("Nama anda ",nama,"telah berhasil dimasukan") #OUTPUT
+
+umur = int(input("Berapa Umur Anda :")) #INPUT
+if umur >=1 and umur <= 18: #PROSES UNTUK MENDAPATKAN OUTPUT
+    #OUTPUT
+    print("Anda Masih Belum Cukup Umur")
+    print("Silahkan tunggu sampai umur anda cukup")
+    exit(0)
+elif umur >= 18 and umur <= 30: #PROSES UNTUK MENDAPATKAN OUTPUT
+    #OUTPUT
+    print("Anda Sudah Cukup Umur")
+elif umur > 30: #PROSES UNTUK MENDAPATKAN OUTPUT
+    #OUTPUT
+    print("Umur anda sudah tua")
+    print("Mohon maaf anda tidak bisa daftar")
+    exit(0)
+
+pekerjaan = str(input("Pekerjaan apa yang ingin kamu daftar :")) #INPUT
+print("Anda telah terdaftar menjadi",pekerjaan,",Silahkan tunggu pengumuman selanjutnya") #OUTPUT
