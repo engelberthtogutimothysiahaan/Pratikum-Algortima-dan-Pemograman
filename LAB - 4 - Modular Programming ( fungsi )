@@ -1,0 +1,40 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA
+
+'''
+Buatah program untuk menghitung luas dan keliling dari persegi  dan persegi panjang dengan nama fungsi sendiri
+
+'''
+
+
+
+print("====== Kalkulator  ======")
+print("Pilih Menu Kalkulator :")
+print("1. persegi panjang\n2. persegi")
+
+#INPUT
+O = int(input("Masukkan Pilihan Anda :"))
+if O == 1 :
+    #INPUT
+    panjang = int(input("Panjang :"))
+    lebar = int(input("Lebar :"))
+    #PROSES UNTUK MENAMPILKAN OUTPUT
+    def persegipanjang(panjang,lebar):
+        return panjang * lebar
+    def kelilingpersegipanjang(panjang,lebar):
+        return 2 * (panjang + lebar)
+    #OUTPUT
+    print(("Luas Persegi Panjangnya Adalah "),persegipanjang(panjang,lebar))
+    print(("Keliling persegi panjangnya adalah "),kelilingpersegipanjang(panjang,lebar))
+elif O == 2 :
+    #INPUT
+    sisi = int(input("panjang sisi  :"))
+    #PROSES UNTUK MENAMPILKAN OUTPUT
+    def persegi(sisi):
+        return sisi * sisi
+    def kelilingpersegi(sisi):
+        return sisi * 4
+    #OUTPUT
+    print(("Luas Perseginya adalah "),persegi(sisi))
+    print(("Keliling Perseginya adalah "),kelilingpersegi(sisi))
