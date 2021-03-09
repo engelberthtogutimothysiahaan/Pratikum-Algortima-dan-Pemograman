@@ -1,0 +1,19 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA
+
+"""
+Buatlah program nilai yang membuat nilai remedi yaitu dibawah 70 menjadi nilai 70 
+jika sudah di atas 70 maka program akan menampilkan "Nilai anda sudah mencapai nilai minimal"
+
+"""
+#INPUT
+nilai = int(input("Masukan nilai anda :"))
+
+#PROSES DAN OUTPUT
+
+while nilai <=70:
+    print(nilai)
+    nilai = nilai+1
+else:
+    print("Nilai anda sudah mencapai nilai minimal")
