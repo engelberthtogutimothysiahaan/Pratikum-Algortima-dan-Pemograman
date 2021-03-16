@@ -1,0 +1,27 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA
+"""
+SOAL :
+Buatlah sebuah program seperti gambar di bawah :
+
+Masukan nilai anda: 3
+ NEVER GIVE UP  1 
+ NEVER GIVE UP  2  NEVER GIVE UP  2 
+ NEVER GIVE UP  3  NEVER GIVE UP  3  NEVER GIVE UP  3
+
+Masukan nilai anda: 5
+ NEVER GIVE UP  1 
+ NEVER GIVE UP  2  NEVER GIVE UP  2 
+ NEVER GIVE UP  3  NEVER GIVE UP  3  NEVER GIVE UP  3
+ NEVER GIVE UP  4  NEVER GIVE UP  4  NEVER GIVE UP  4  NEVER GIVE UP  4
+ NEVER GIVE UP  5  NEVER GIVE UP  5  NEVER GIVE UP  5  NEVER GIVE UP  5  NEVER GIVE UP  5
+"""
+#INPUT USER
+nilai = int(input("Masukan nilai anda :"))
+
+#PROSES UNTUK OUTPUT DAN MENAMPILKAN OUTPUT
+for i in range (1,nilai+1):
+    for j in range(1,i+1):
+        print("NEVER GIVE UP",i,end=" ")
+    print()
