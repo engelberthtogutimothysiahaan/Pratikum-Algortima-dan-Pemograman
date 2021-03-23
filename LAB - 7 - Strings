@@ -1,0 +1,21 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA
+
+'''
+SOAL :
+
+Buatlah sebuah program yg meminta user untuk menginput namanya 
+program tersebut sudah terisi dengan kalimat aku anak indonesia dengan variabel kalimat4 
+Lalu akan menampilkan kalimat nama saya + nama yang diinput user + kalimat4 + dan aku cinta tanah airku
+
+'''
+#INPUT
+nama = str(input("Masukan nama anda :"))
+kalimat4 = "Aku anak indonesia"
+
+#PROSES UNTUK MENAMPILKAN OUTPUT
+kalimat4 = "Nama saya " + nama + " "+ kalimat4 + " dan aku cinta tanah airku"
+
+#OUTPUT
+print(kalimat4)
