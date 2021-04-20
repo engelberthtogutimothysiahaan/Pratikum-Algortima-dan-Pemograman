@@ -1,0 +1,25 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#UNIVERSITAS KRISTEN DUTA WACANA
+"""
+SOAL :
+
+BUATLAH PROGRAM SEDERHANA UNTUK MENGHITUNG NILAI RATA - RATA DARI DATA NILAI DI LIST
+
+"""
+#input
+data = []
+nilai = int(input("Jumlah nilai yang ingin dimasukan nilai : "))
+
+#PROSES MENDAPATKAN OUTPUT DAN MENAMPILKAN OUTPUT
+for i in range(0,nilai):
+    n2 = int(input())
+
+    data.append(n2)
+print("Data :",data)
+
+jumlah_nilai = sum(data)
+jumlah_data_nilai = len(data)
+nilai_rata_rata = jumlah_nilai / jumlah_data_nilai
+print('Akumulasi jumlah nilai pada list: ',jumlah_nilai)
+print('Jumlah data nilai pada list: ',jumlah_data_nilai)
+print("Nilai rata - rata pada list:",nilai_rata_rata)
