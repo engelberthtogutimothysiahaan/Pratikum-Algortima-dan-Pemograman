@@ -1,0 +1,27 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA
+
+'''
+Soal :
+
+Buatlah kode untuk menggabungkan data - data sekolah yang dalam dictionary yang ada dibawah ini menjadi satu data dictionary :
+
+data pertama   {1:10, 2:20}
+data kedua     {3:30, 4:40}
+data ketiga    {5:50, 6:60}
+data keempat   {7:70, 8:80}
+data kelima    {9:90, 10:100}
+
+'''
+
+#INPUT 
+data1={1:10, 2:20}
+data2={3:30, 4:40}
+data3={5:50, 6:60}
+data4={7:70, 8:80}
+data5={9:90, 10:100}
+#PROSES UNTUK MENDAPATKAN OUTPUT DAN MENAMPILKAN OUTPUT
+data = {}
+for d in (data1, data2, data3,data4,data5): data.update(d)
+print(data)
