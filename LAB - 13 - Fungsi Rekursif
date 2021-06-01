@@ -1,0 +1,23 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA
+"""
+Soal :
+
+BIMA adalah orang yang gemar mata kuliah matematika, namun ia kesulitan dalam menghitung perpangkatan
+Untuk memudahkan BIMA, Buatlah program sederhana kalkulator perhitungan bilangan perpangkatan menggunakan rekursif
+
+"""
+#PROSES UNTUK MENDAPATKAN HASIL OUTPUT
+def bilangan(x,y):
+   if y == 0:
+      return 1
+   else:
+      return x * bilangan(x,y-1)
+
+# INPUT USER
+x = int(input("Masukan Nilai X :"))
+y = int(input("MAsukan nilai y :"))
+
+# UNTUK MENAMPILKAN HASIL OUPUT
+print("%d dipangkatkan %d = %d" % (x,y,bilangan(x,y)))
