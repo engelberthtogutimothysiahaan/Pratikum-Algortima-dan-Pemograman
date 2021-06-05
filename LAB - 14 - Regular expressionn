@@ -1,0 +1,25 @@
+#NAMA : ENGELBERTH TOGU TIMOTHY SIAHAAN
+#NIM  : 71200639
+#UNIVERSITAS KRISTEN DUTA WACANA
+
+'''
+SOAL :
+
+Buatlah program sederhana yang bisa membantu dimas membedakan nomor HP yang benar dan nomor HP yang salah dengan fungsi regex!
+Ketentuan nomer yang benar:
+Dimulai dengan 3 digit dan tanda -
+3 digit tengah dan tanda -
+4 digit di akhir
+selain dengan itu maka hasilnya salah
+
+'''
+import re
+
+#INPUT USER
+nomor = str(input("Nomor Handphone :"))
+
+#Proses untuk mendapatkan output dan menampilkan output
+if re.search("\w{3}-\w{3}-\w{4}", nomor):
+    print("Nomor telah benar")
+else:
+    print("Nomor anda")
